@@ -1,0 +1,15 @@
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\bin\Debug\net6.0\hw4_4.exe
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\bin\Debug\net6.0\hw4_4.deps.json
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\bin\Debug\net6.0\hw4_4.runtimeconfig.json
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\bin\Debug\net6.0\hw4_4.dll
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\bin\Debug\net6.0\hw4_4.pdb
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.csproj.AssemblyReference.cache
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.AssemblyInfoInputs.cache
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.AssemblyInfo.cs
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.csproj.CoreCompileInputs.cache
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.dll
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\refint\hw4_4.dll
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.pdb
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\hw4_4.genruntimeconfig.cache
+C:\Users\Fox\Desktop\codes\hw4_4\hw4_4\obj\Debug\net6.0\ref\hw4_4.dll

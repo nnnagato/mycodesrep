@@ -1,0 +1,23 @@
+﻿<Window x:Class="hw3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hw3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Фраза:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="61" Height="27"/>
+        <TextBox x:Name="vvodbox" HorizontalAlignment="Left" Height="23" Margin="10,42,0,0" TextWrapping="Wrap" Text="Это надо зашифровать." VerticalAlignment="Top" Width="368"/>
+        <Label Content="Фраза-ключ:" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="keybox" HorizontalAlignment="Left" Height="23" Margin="10,101,0,0" TextWrapping="Wrap" Text="Через это надо шифровать." VerticalAlignment="Top" Width="368"/>
+        <Button x:Name="but" Content="Зашифровать" HorizontalAlignment="Left" Margin="592,42,0,0" VerticalAlignment="Top" Width="116" Height="23" Click="Button_Click"/>
+        <Label x:Name="reslabel" Content="Результат:" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBox x:Name="resbox" HorizontalAlignment="Left" Height="23" Margin="10,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" Visibility="Hidden"/>
+        <ComboBox x:Name="code_mode" HorizontalAlignment="Left" Margin="436,43,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Зашифровать"/>
+            <ComboBoxItem Content="Расшифровать"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

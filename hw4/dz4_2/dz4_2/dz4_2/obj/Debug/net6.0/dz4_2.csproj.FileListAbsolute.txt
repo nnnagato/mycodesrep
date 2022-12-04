@@ -1,0 +1,15 @@
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\bin\Debug\net6.0\dz4_2.exe
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\bin\Debug\net6.0\dz4_2.deps.json
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\bin\Debug\net6.0\dz4_2.runtimeconfig.json
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\bin\Debug\net6.0\dz4_2.dll
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\bin\Debug\net6.0\dz4_2.pdb
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.csproj.AssemblyReference.cache
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.AssemblyInfoInputs.cache
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.AssemblyInfo.cs
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.csproj.CoreCompileInputs.cache
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.dll
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\refint\dz4_2.dll
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.pdb
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\dz4_2.genruntimeconfig.cache
+C:\Users\Fox\Desktop\codes\dz4_2\dz4_2\dz4_2\obj\Debug\net6.0\ref\dz4_2.dll
