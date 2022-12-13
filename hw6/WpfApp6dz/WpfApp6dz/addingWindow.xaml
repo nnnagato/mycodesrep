@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp6dz.addingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6dz"
+        mc:Ignorable="d"
+        Title="addingWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="choseBox" HorizontalAlignment="Left" Margin="30,41,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="Равнобедренный"/>
+            <ComboBoxItem Content="Равносторонний"/>
+            <ComboBoxItem Content="Прямоугольный"/>
+        </ComboBox>
+        <Label Content="Тип треугольника" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="aLabel" Content="a" HorizontalAlignment="Left" Margin="197,10,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="aBox" HorizontalAlignment="Left" Margin="197,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="bLabel" Content="b" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="122"/>
+        <TextBox x:Name="bBox" HorizontalAlignment="Left" Margin="316,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="alphaLabel" Content="alpha" HorizontalAlignment="Left" Margin="460,10,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox x:Name="alphaBox" HorizontalAlignment="Left" Margin="460,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+        <Button x:Name="applyButton" Content="Добавить" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Width="156" Height="31" Click="applyButton_Click" IsDefault="True"/>
+        <Button x:Name="denyButton" Content="отмена" HorizontalAlignment="Center" Margin="0,296,0,0" VerticalAlignment="Top" Width="113" Click="denyButton_Click" IsCancel="True"/>
+
+    </Grid>
+</Window>

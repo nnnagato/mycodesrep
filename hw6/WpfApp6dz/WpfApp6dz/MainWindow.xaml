@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp6dz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6dz"
+        mc:Ignorable="d"
+        Title="Карапетов Валерий Эдуардович УТС-21 Вариант 7" Height="450" Width="800">
+    <Grid>
+        <Label Content="Сторона а" HorizontalAlignment="Left" Margin="67,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сторона б" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Угол Альфа" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Периметр" HorizontalAlignment="Left" Margin="287,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Площадь" HorizontalAlignment="Left" Margin="358,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="aLabel" Content="1" HorizontalAlignment="Left" Margin="67,41,0,0" VerticalAlignment="Top" Width="66" Height="383"/>
+        <Label x:Name="bLabel" Content="2" HorizontalAlignment="Left" Margin="138,41,0,0" VerticalAlignment="Top" Width="67" Height="383"/>
+        <Label x:Name="alphaLabel" Content="3" HorizontalAlignment="Left" Margin="210,41,0,0" VerticalAlignment="Top" Width="72" Height="383"/>
+        <Label x:Name="perimetrLabel" Content="4" HorizontalAlignment="Left" Margin="287,41,0,0" VerticalAlignment="Top" Width="66" Height="383"/>
+        <Label x:Name="squareLabel" Content="5" HorizontalAlignment="Left" Margin="358,41,0,0" VerticalAlignment="Top" Width="61" Height="383"/>
+        <Button x:Name="AddingButton" Content="Добавить" HorizontalAlignment="Left" Margin="546,104,0,0" VerticalAlignment="Top" Width="213" Click="AddingButton_Click"/>
+        <Button x:Name="RemovingButton" Content="Удалить" HorizontalAlignment="Left" Margin="546,202,0,0" VerticalAlignment="Top" Width="213" Click="RemovingButton_Click"/>
+        <TextBox x:Name="numberBox" HorizontalAlignment="Left" Margin="546,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="213"/>
+        <Label Content="Тип" HorizontalAlignment="Left" Margin="424,10,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label x:Name="typeLabel" Content="6" HorizontalAlignment="Left" Margin="424,41,0,0" VerticalAlignment="Top" Width="117" Height="383"/>
+        <TextBlock HorizontalAlignment="Left" Margin="546,139,0,0" TextWrapping="Wrap" Text="Номер записи для удаления" VerticalAlignment="Top"/>
+        <Label Content="Номер" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label x:Name="numLabel" Content="0" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="57" Height="383"/>
+
+    </Grid>
+</Window>
