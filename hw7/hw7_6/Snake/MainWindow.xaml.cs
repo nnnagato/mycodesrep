@@ -124,15 +124,52 @@ namespace Snake
             //проверяем контакт с телепортом 1
             if (head.x == teleport1.x && head.y == teleport1.y)
             {
-                head.x = teleport2.x;
-                head.y = teleport2.y;
+                //в зависимости от напралвения входа меняем свдвиг
+                switch(head.direction)
+                {
+                    case Head.Direction.LEFT:
+                        head.x = teleport2.x - 40;
+                        head.y = teleport2.y;
+                        break;
+                    case Head.Direction.RIGHT:
+                        head.x = teleport2.x + 40;
+                        head.y = teleport2.y;
+                        break;
+                    case Head.Direction.DOWN:
+                        head.x = teleport2.x;
+                        head.y = teleport2.y + 40;
+                        break;
+                    case Head.Direction.UP:
+                        head.x = teleport2.x;
+                        head.y = teleport2.y - 40;
+                        break;
+                }
+                
             }
 
             //проверяем контакт с телепортом 2
             if (head.x == teleport2.x && head.y == teleport2.y)
             {
-                head.x = teleport1.x;
-                head.y = teleport1.y;
+                //в зависимости от напралвения входа меняем свдвиг
+                switch (head.direction)
+                {
+                    case Head.Direction.LEFT:
+                        head.x = teleport1.x - 40;
+                        head.y = teleport1.y;
+                        break;
+                    case Head.Direction.RIGHT:
+                        head.x = teleport1.x + 40;
+                        head.y = teleport1.y;
+                        break;
+                    case Head.Direction.DOWN:
+                        head.x = teleport1.x;
+                        head.y = teleport1.y + 40;
+                        break;
+                    case Head.Direction.UP:
+                        head.x = teleport1.x;
+                        head.y = teleport1.y - 40;
+                        break;
+                }
             }
 
             //перерисовываем экран
@@ -312,6 +349,10 @@ namespace Snake
                     RotateTransform rotateTransform = new RotateTransform(90 * (int)value);
                     image.RenderTransform = rotateTransform;
                 }
+                get
+                {
+                    return m_direction;
+                }
             }
 
             public Head()
@@ -371,8 +412,8 @@ namespace Snake
                 Random rand = new Random(DateTime.Now.Millisecond);
                 do
                 {
-                    x = rand.Next(11) * 40 + 40;
-                    y = rand.Next(11) * 40 + 40;
+                    x = rand.Next(11) * 40 + 80;
+                    y = rand.Next(11) * 40 + 80;
                     bool overlap = false;
                     foreach (var p in m_tp)
                     {
