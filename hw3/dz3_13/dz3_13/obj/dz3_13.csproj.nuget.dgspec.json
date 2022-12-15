@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fox\\Desktop\\codes\\dz3_13\\dz3_13\\dz3_13.csproj": {}
+    "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw3\\dz3_13\\dz3_13\\dz3_13.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fox\\Desktop\\codes\\dz3_13\\dz3_13\\dz3_13.csproj": {
+    "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw3\\dz3_13\\dz3_13\\dz3_13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fox\\Desktop\\codes\\dz3_13\\dz3_13\\dz3_13.csproj",
+        "projectUniqueName": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw3\\dz3_13\\dz3_13\\dz3_13.csproj",
         "projectName": "dz3_13",
-        "projectPath": "C:\\Users\\Fox\\Desktop\\codes\\dz3_13\\dz3_13\\dz3_13.csproj",
+        "projectPath": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw3\\dz3_13\\dz3_13\\dz3_13.csproj",
         "packagesPath": "C:\\Users\\Fox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fox\\Desktop\\codes\\dz3_13\\dz3_13\\obj\\",
+        "outputPath": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw3\\dz3_13\\dz3_13\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fox\\AppData\\Roaming\\NuGet\\NuGet.Config",

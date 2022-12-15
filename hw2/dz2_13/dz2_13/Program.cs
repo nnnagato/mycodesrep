@@ -12,7 +12,7 @@ namespace dz2_13
         }
         static double segment2(double x, double r)
         {
-            double y = Math.Sqrt(9 - Math.Pow(x, 2));
+            double y = Math.Sqrt(Math.Pow(r,2) - Math.Pow(x, 2));
             return y;
         }
         static double segment3(double x)
