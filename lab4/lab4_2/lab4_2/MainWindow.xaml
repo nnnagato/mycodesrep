@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab4_2"
         mc:Ignorable="d"
-        Title="Карапетов Валерий Эдуардович УТС-21 Вариант 2(6)" Height="450" Width="800">
+        Title="Сенкевич Андрей Борисович УТС-21 Вариант 2" Height="450" Width="800">
     <Grid>
         <Border BorderBrush="Black" BorderThickness="1" Margin="335,36,28,92">
             <Canvas x:Name="canvas" MouseDown="canvas_MouseDown" MouseMove="canvas_MouseMove" Background="White"/>
