@@ -306,6 +306,7 @@ namespace lab3
                     nal = true;
                 }
             }
+            Console.ReadKey();
             if (nal == false) Console.WriteLine("Нет студентов заданного года рождения");
         }
 
