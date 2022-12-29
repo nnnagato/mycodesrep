@@ -132,10 +132,8 @@ namespace lab4_1
 
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
-            // создаем новое окно
+            //создание и вывод окна о программе
             var about = new Window1();
-
-            // и показываем его на экране
             about.Show();
 
         }
@@ -148,17 +146,17 @@ namespace lab4_1
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             tb3.Text = "1";
-            int h = 0;
+            int j = 0;
             string g = tb.Text;
             for (int i = 0; i < g.Length - 1; i++)
             {
                 if (g[i] == ' ' && g[i + 1] != ' ')
                 {
-                    h++;
+                    j++;
                 }
             }
-            h++;
-            Word.Text = h.ToString();
+            j++;
+            Words.Text = j.ToString();
         }
     }
 }

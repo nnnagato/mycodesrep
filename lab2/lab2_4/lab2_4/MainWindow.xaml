@@ -1,0 +1,30 @@
+﻿<Window x:Class="lab2_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2_4"
+        mc:Ignorable="d"
+        Title="Волчёнков Никита УТС-21 вариант 4" Height="450" Width="800">
+    <Grid>
+        <Label Content="Конвертер величин" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Температура" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Единица измерений" HorizontalAlignment="Left" Margin="113,93,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Перевести в" HorizontalAlignment="Left" Margin="254,93,0,0" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="startcount" HorizontalAlignment="Left" Margin="10,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="98" Height="30"/>
+        <TextBox x:Name="finishcount" HorizontalAlignment="Left" Margin="10,326,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Reslabel" Content="" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top" Width="586"/>
+        <ComboBox x:Name="startscale" HorizontalAlignment="Left" Margin="113,124,0,0" VerticalAlignment="Top" Width="136" Height="30">
+            <ComboBoxItem Content="°С"/>
+            <ComboBoxItem Content="°F"/>
+            <ComboBoxItem Content="K"/>
+        </ComboBox>
+        <ComboBox x:Name="finishscale" HorizontalAlignment="Left" Margin="254,124,0,0" VerticalAlignment="Top" Width="120" Height="30">
+            <ComboBoxItem Content="°C"/>
+            <ComboBoxItem Content="°F"/>
+            <ComboBoxItem Content="K"/>
+        </ComboBox>
+        <Button x:Name="btn" Content="Пересчитать" HorizontalAlignment="Left" Margin="456,124,0,0" VerticalAlignment="Top" Width="140" Click="btn_Click"/>
+
+    </Grid>
+</Window>

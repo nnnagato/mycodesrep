@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab4_1"
         mc:Ignorable="d"
-        Title="Блокнот" Height="457" Width="782">
+        Title="Малюгин Максим УТС-21" Height="457" Width="782">
     <Grid Margin="10,0,10,-16">
         <Grid.RowDefinitions>
             <RowDefinition Height="74*"/>
@@ -52,7 +52,7 @@
         <TextBox x:Name="tb3" Grid.Column="3" HorizontalAlignment="Left" Margin="790,61,0,0" TextWrapping="Wrap" Text="123" VerticalAlignment="Top" Width="120" TextChanged="tb3_TextChanged" Grid.Row="1"/>
         <StatusBar x:Name="sb" Margin="510,10,0,30" Grid.Column="3" Grid.Row="4" Grid.RowSpan="3">
             <StatusBarItem Margin="0,0,0,21" RenderTransformOrigin="0.5,0.62" Width="162">
-                <TextBlock x:Name="Word" Width="91" Height="28" Text="" />
+                <TextBlock x:Name="Words" Width="91" Height="28" Text="" />
             </StatusBarItem>
         </StatusBar>
 

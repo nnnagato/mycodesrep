@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw7\\lab4_1\\lab4_1\\lab4_1.csproj": {}
+    "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\lab4\\lab4_1\\lab4_1\\lab4_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw7\\lab4_1\\lab4_1\\lab4_1.csproj": {
+    "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\lab4\\lab4_1\\lab4_1\\lab4_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw7\\lab4_1\\lab4_1\\lab4_1.csproj",
+        "projectUniqueName": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\lab4\\lab4_1\\lab4_1\\lab4_1.csproj",
         "projectName": "lab4_1",
-        "projectPath": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw7\\lab4_1\\lab4_1\\lab4_1.csproj",
+        "projectPath": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\lab4\\lab4_1\\lab4_1\\lab4_1.csproj",
         "packagesPath": "C:\\Users\\Fox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\hw7\\lab4_1\\lab4_1\\obj\\",
+        "outputPath": "C:\\Users\\Fox\\Documents\\GitHub\\mycodesrep\\lab4\\lab4_1\\lab4_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fox\\AppData\\Roaming\\NuGet\\NuGet.Config",
