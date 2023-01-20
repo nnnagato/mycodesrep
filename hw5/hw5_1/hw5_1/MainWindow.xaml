@@ -1,0 +1,20 @@
+﻿<Window x:Class="hw5_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hw5_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Нижняя граница" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="390" Height="43" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Верхняя граница" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" Width="390" Height="43" FontSize="22" FontWeight="Bold"/>
+        <TextBox x:Name="LowBorder" HorizontalAlignment="Left" Margin="10,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" Height="41" FontSize="18" TextChanged="LowBorder_TextChanged"/>
+        <TextBox x:Name="HighBorder" HorizontalAlignment="Left" Margin="405,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="385" Height="41" FontSize="18" TextChanged="HighBorder_TextChanged"/>
+        <Label Content="Текущее значение" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Width="202" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="CurrentLabel" Content="5" HorizontalAlignment="Center" Margin="0,224,0,0" VerticalAlignment="Top" Width="202" FontSize="16" HorizontalContentAlignment="Center"/>
+        <Button x:Name="downscaleButton" Content="--" HorizontalAlignment="Left" Margin="153,260,0,0" VerticalAlignment="Top" Height="45" Width="168" Click="downscaleButton_Click"/>
+        <Button x:Name="upscaleButton" Content="++" HorizontalAlignment="Left" Margin="473,260,0,0" VerticalAlignment="Top" Height="45" Width="168" Click="upscaleButton_Click"/>
+
+    </Grid>
+</Window>
