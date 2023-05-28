@@ -1,0 +1,15 @@
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\bin\Debug\net6.0\UdpClientExample.exe
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\bin\Debug\net6.0\UdpClientExample.deps.json
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\bin\Debug\net6.0\UdpClientExample.runtimeconfig.json
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\bin\Debug\net6.0\UdpClientExample.dll
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\bin\Debug\net6.0\UdpClientExample.pdb
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.csproj.AssemblyReference.cache
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.AssemblyInfoInputs.cache
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.AssemblyInfo.cs
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.csproj.CoreCompileInputs.cache
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.dll
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\refint\UdpClientExample.dll
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.pdb
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\UdpClientExample.genruntimeconfig.cache
+C:\Users\Fox\Documents\GitHub\mycodesrep\vmsis\lab8\UdpClientExample\UdpClientExample\obj\Debug\net6.0\ref\UdpClientExample.dll
